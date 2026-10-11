@@ -1,0 +1,8 @@
+ctrl_interface=/var/run/wpa_supplicant
+update_config=1
+country=UA
+
+network={
+    ssid="Anonymous"
+    psk="12344321"
+}

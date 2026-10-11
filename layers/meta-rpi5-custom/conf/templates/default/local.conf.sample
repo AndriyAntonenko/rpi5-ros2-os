@@ -1,0 +1,14 @@
+MACHINE = "raspberrypi5"
+DISTRO = "poky"
+INIT_MANAGER = "systemd"
+LICENSE_FLAGS_ACCEPTED += "synaptics-killswitch"
+ENABLE_UART = "1"
+INHERIT += "rm_work"
+PACKAGE_CLASSES = "package_ipk"
+CONF_VERSION = "2"
+
+# --- boot from USB drive instead of SD card ---
+WKS_FILE = "rpi5-usb.wks"
+CMDLINE_ROOTFS = "root=/dev/sda2 rootfstype=ext4 rootwait"
+RPI_EXTRA_CONFIG = "usb_max_current_enable=1"
+hostname:pn-base-files = "rpi5-yocto"

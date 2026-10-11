@@ -1,0 +1,2 @@
+build/
+layers/meta-rpi5-custom/recipes-connectivity/wifi-config/files/wpa_supplicant-wlan0.conf
