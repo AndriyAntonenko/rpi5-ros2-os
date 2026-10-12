@@ -1,2 +1,6 @@
 build/
 layers/meta-rpi5-custom/recipes-connectivity/wifi-config/files/wpa_supplicant-wlan0.conf
+ros2_ws/build/
+ros2_ws/install/
+ros2_ws/log/
+ros2_ws/.ros-py/

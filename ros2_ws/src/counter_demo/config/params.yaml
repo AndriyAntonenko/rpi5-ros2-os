@@ -1,0 +1,4 @@
+/**/counter_publisher:      # нода counter_publisher у будь-якому namespace
+  ros__parameters:
+    period: 0.5
+    start_value: 100
