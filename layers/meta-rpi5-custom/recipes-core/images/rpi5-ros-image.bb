@@ -5,4 +5,5 @@ IMAGE_INSTALL:append = " \
     ros-core \
     demo-nodes-cpp \
     demo-nodes-py \
+    counter-demo \
 "
