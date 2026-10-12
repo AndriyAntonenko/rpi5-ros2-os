@@ -9,5 +9,6 @@ IMAGE_INSTALL:append = " \
     linux-firmware-rpidistro-bcm43455 \
     wifi-config \
     andrii-user \
+    boot-config \
     avahi-daemon \
 "

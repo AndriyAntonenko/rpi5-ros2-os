@@ -1,0 +1,12 @@
+[Unit]
+Description=Apply Wi-Fi and SSH config from the boot partition
+RequiresMountsFor=/boot
+Before=wpa_supplicant@wlan0.service sshd.socket
+
+[Service]
+Type=oneshot
+ExecStart=/usr/sbin/boot-config.sh
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target
